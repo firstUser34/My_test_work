@@ -4,7 +4,7 @@ import io
 import zipfile
 
 # Load the certificate template
-template_path = r"c_iot\c_iot-1.png"
+ttemplate_path = "assets/c_iot-1.png"
 template = Image.open(template_path)
 
 # Streamlit app layout
